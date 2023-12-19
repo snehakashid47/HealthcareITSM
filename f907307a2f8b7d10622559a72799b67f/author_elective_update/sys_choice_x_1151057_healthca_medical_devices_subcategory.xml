@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="subcategory" table="x_1151057_healthca_medical_devices" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:03:17</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>subcategory</sys_name>
+            <sys_package display_value="HealthcareITSM" source="x_1151057_healthca">f907307a2f8b7d10622559a72799b67f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HealthcareITSM">f907307a2f8b7d10622559a72799b67f</sys_scope>
+            <sys_update_name>sys_choice_x_1151057_healthca_medical_devices_subcategory</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:03:17</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Image Quality Issues</label>
+            <language>en</language>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 09:42:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 09:42:19</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alarm Notifications</label>
+            <language>en</language>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 09:25:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 09:25:31</sys_updated_on>
+            <value>Alarm Notifications</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Battery or Charging Issues</label>
+            <language>en</language>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 09:27:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 09:27:36</sys_updated_on>
+            <value>Battery or Charging Issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Battery or Power Issues</label>
+            <language>en</language>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 09:41:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 09:41:20</sys_updated_on>
+            <value>Battery or Power Issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Connection Issues</label>
+            <language>en</language>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:04:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 07:20:13</sys_updated_on>
+            <value>Connection Issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Accuracy Concerns</label>
+            <language>en</language>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 09:25:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 09:25:59</sys_updated_on>
+            <value>Data Accuracy Concerns</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Device Malfunction</label>
+            <language>en</language>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:03:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 07:20:22</sys_updated_on>
+            <value>Device Malfunction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failure to Deliver Shock</label>
+            <language>en</language>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 09:35:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 09:35:35</sys_updated_on>
+            <value>Failure to Deliver Shock</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flow Rate Irregularities</label>
+            <language>en</language>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 09:40:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 09:40:35</sys_updated_on>
+            <value>Flow Rate Irregularities</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hardware Malfunction</label>
+            <language>en</language>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 10:26:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 10:34:05</sys_updated_on>
+            <value>hardware malfunction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Joystick or Control Malfunctions</label>
+            <language>en</language>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 09:27:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 09:27:09</sys_updated_on>
+            <value>Joystick or Control Malfunctions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medication Administration Errors</label>
+            <language>en</language>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 09:41:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 09:41:59</sys_updated_on>
+            <value>Medication Administration Errors</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Occlusion Alarms</label>
+            <language>en</language>
+            <name>x_1151057_healthca_medical_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 09:40:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 09:40:58</sys_updated_on>
+            <value>Occlusion Alarms</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

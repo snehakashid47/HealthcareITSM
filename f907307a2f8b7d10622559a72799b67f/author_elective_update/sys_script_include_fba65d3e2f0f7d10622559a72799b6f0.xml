@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1151057_healthca.Testing1</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Testing1</name>
+        <script><![CDATA[var Testing1 = Class.create();
+Testing1.prototype = {
+    initialize: function() {
+    },
+     fun1: function()
+	 {
+		var obj={};
+		obj.name="Sneha";
+		obj.marks="120";
+		return JSON.stringify(obj);
+	 },
+    type: 'Testing1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 06:48:40</sys_created_on>
+        <sys_id>fba65d3e2f0f7d10622559a72799b6f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Testing1</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1151057_healthca">f907307a2f8b7d10622559a72799b67f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HealthcareITSM">f907307a2f8b7d10622559a72799b67f</sys_scope>
+        <sys_update_name>sys_script_include_fba65d3e2f0f7d10622559a72799b6f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 06:50:29</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">f907307a2f8b7d10622559a72799b67f</application>
+        <file_path/>
+        <instance_id>cc569751dbce73c407072f17d496191f</instance_id>
+        <instance_name>dev87228</instance_name>
+        <name>sys_script_include_fba65d3e2f0f7d10622559a72799b6f0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1151057_healthca.Testing1&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;Testing1&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var Testing1 = Class.create();
+Testing1.prototype = {
+    initialize: function() {
+    },
+     fun1: function()
+	 {
+		var obj={};
+		obj.name="Sneha";
+		obj.marks="120";
+		return JSON.stringify(obj);
+	 },
+    type: 'Testing1'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-15 06:48:40&lt;/sys_created_on&gt;&lt;sys_id&gt;fba65d3e2f0f7d10622559a72799b6f0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Testing1&lt;/sys_name&gt;&lt;sys_package display_value="HealthcareITSM" source="x_1151057_healthca"&gt;f907307a2f8b7d10622559a72799b67f&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="HealthcareITSM"&gt;f907307a2f8b7d10622559a72799b67f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_fba65d3e2f0f7d10622559a72799b6f0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-15 06:50:29&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>223432115</payload_hash>
+        <record_name>Testing1</record_name>
+        <reverted_from/>
+        <source>3d07307a2f8b7d10622559a72799b681</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 06:50:30</sys_created_on>
+        <sys_id>d88791322f4f7d10622559a72799b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c6c3dab1d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 06:50:30</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>d0879132bc4f7d10bc912044316e63e4</update_guid>
+        <update_guid_history>d0879132bc4f7d10bc912044316e63e4:223432115,2117957e610f7d106b1041ef7e6ceb9b:-1269902619</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 04:46:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>21b136f65e124f0ca0251c4b08a120c9</sys_id>
+        <sys_metadata>fba65d3e2f0f7d10622559a72799b6f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Testing1</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1151057_healthca">f907307a2f8b7d10622559a72799b67f</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HealthcareITSM">f907307a2f8b7d10622559a72799b67f</sys_scope>
+        <sys_scope_delete display_value="">0018d9aea9254628800049ecc0507c40</sys_scope_delete>
+        <sys_update_name>sys_script_include_fba65d3e2f0f7d10622559a72799b6f0</sys_update_name>
+        <sys_update_version display_value="sys_script_include_fba65d3e2f0f7d10622559a72799b6f0">d88791322f4f7d10622559a72799b6e4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 04:46:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

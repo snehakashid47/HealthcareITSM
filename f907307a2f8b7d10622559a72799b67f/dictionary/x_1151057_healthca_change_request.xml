@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fa92947b2f477150622559a72799b66e" extends="task" label="change_request" max_length="40" name="x_1151057_healthca_change_request" type="collection">
+        <element label="Emergency Change" max_length="40" name="emergency_change" type="boolean"/>
+        <element label="Incident Linked" max_length="32" name="incident_linked" reference="x_1151057_healthca_incident" type="reference"/>
+    </element>
+</database>

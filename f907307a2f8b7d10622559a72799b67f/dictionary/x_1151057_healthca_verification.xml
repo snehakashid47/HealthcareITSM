@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="77f898ff2f477150622559a72799b6cc" label="verification" max_length="40" name="x_1151057_healthca_verification" type="collection">
+        <element label="Incident Number" max_length="32" name="incident_number" reference="x_1151057_healthca_incident" type="reference"/>
+        <element choice="1" label="Verification Status" max_length="40" name="verification_status" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="incident_number"/>
+        </index>
+    </element>
+</database>

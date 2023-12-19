@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3543d8bb2f477150622559a72799b6b9" label="medical_devices" max_length="40" name="x_1151057_healthca_medical_devices" type="collection">
+        <element choice="1" label="Category" max_length="40" name="category" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cardiac Equipment" value="Cardiac Equipment"/>
+                <element inactive_on_update="false" label="Diagnostic Equipment" value="Diagnostic Equipment"/>
+                <element inactive_on_update="false" label="Health Information Technology (HIT)" value="Health Information Technology (HIT)"/>
+                <element inactive_on_update="false" label="Imaging Equipment" value="Imaging Equipment"/>
+                <element inactive_on_update="false" label="Imaging Equipment" value="Imaging Equipment"/>
+                <element inactive_on_update="false" label="Infusion Device" value="Infusion Device"/>
+                <element inactive_on_update="false" label="IT Equipment" value="IT_Equipment"/>
+                <element inactive_on_update="false" label="Mobility Aids" value="Mobility Aids"/>
+                <element inactive_on_update="false" label="Monitoring Equipment" value="Monitoring Equipment"/>
+                <element inactive_on_update="false" label="Respiratory Equipment" value="Respiratory Equipment"/>
+                <element inactive_on_update="false" label="Surgical Equipment" value="Surgical Equipment"/>
+            </choice>
+        </element>
+        <element choice="1" label="Criticality Level" max_length="40" name="criticality_level" type="choice">
+            <choice/>
+        </element>
+        <element label="Device ID" max_length="40" name="device_id" type="string"/>
+        <element choice="1" label="Device Name" max_length="40" name="device_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Blood Glucose Monitor" value="Blood Glucose Monitor"/>
+                <element inactive_on_update="false" label="Defibrillator" value="Defibrillator"/>
+                <element inactive_on_update="false" label="Electronic Health Record (EHR) System" value="Electronic Health Record (EHR) System"/>
+                <element inactive_on_update="false" label="Infusion Pump" value="Infusion Pump"/>
+                <element inactive_on_update="false" label="Laptop" value="Laptop"/>
+                <element inactive_on_update="false" label="Patient Monitoring Device" value="Patient Monitoring Device"/>
+                <element inactive_on_update="false" label="Surgical Laser" value="Surgical Laser"/>
+                <element inactive_on_update="false" label="Ultrasound Machine" value="Ultrasound Machine"/>
+                <element inactive_on_update="false" label="Ventilator" value="Ventilator"/>
+                <element inactive_on_update="false" label="Wheelchair with Electronic Controls" value="Wheelchair with Electronic Controls"/>
+                <element inactive_on_update="false" label="X-ray Machine" value="X-ray Machine"/>
+            </choice>
+        </element>
+        <element choice="1" label="Device Status" max_length="40" name="device_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" value="Active"/>
+                <element inactive_on_update="false" label="Decommissioned" value="Decommissioned"/>
+                <element inactive_on_update="false" label="Inactive" value="Inactive"/>
+                <element inactive_on_update="false" label="Under Maintenance" value="Under Maintenance"/>
+            </choice>
+        </element>
+        <element label="Last Maintenance Date" max_length="40" name="last_maintenance_date" type="glide_date"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <element label="Maintenance Schedule" max_length="40" name="maintenance_schedule" type="string"/>
+        <element label="Manufacturer" max_length="40" name="manufacturer" type="string"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Purchase Date" max_length="40" name="purchase_date" type="glide_date"/>
+        <element label="Serial Number" max_length="40" name="serial_number" type="string"/>
+        <element choice="1" label="Subcategory" max_length="40" name="subcategory" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Alarm Notifications" value="Alarm Notifications"/>
+                <element inactive_on_update="false" label="Battery or Charging Issues" value="Battery or Charging Issues"/>
+                <element inactive_on_update="false" label="Battery or Power Issues" value="Battery or Power Issues"/>
+                <element inactive_on_update="false" label="Connection Issues" value="Connection Issues"/>
+                <element inactive_on_update="false" label="Data Accuracy Concerns" value="Data Accuracy Concerns"/>
+                <element inactive_on_update="false" label="Device Malfunction" value="Device Malfunction"/>
+                <element inactive_on_update="false" label="Failure to Deliver Shock" value="Failure to Deliver Shock"/>
+                <element inactive_on_update="false" label="Flow Rate Irregularities" value="Flow Rate Irregularities"/>
+                <element inactive_on_update="false" label="Hardware Malfunction" value="hardware malfunction"/>
+                <element inactive_on_update="false" label="Image Quality Issues"/>
+                <element inactive_on_update="false" label="Joystick or Control Malfunctions" value="Joystick or Control Malfunctions"/>
+                <element inactive_on_update="false" label="Medication Administration Errors" value="Medication Administration Errors"/>
+                <element inactive_on_update="false" label="Occlusion Alarms" value="Occlusion Alarms"/>
+            </choice>
+        </element>
+        <element label="Training Required" max_length="40" name="training_required" type="string"/>
+        <element label="User Instructions" max_length="40" name="user_instructions" type="string"/>
+        <element label="User Manual" max_length="1024" name="user_manual" type="url"/>
+        <element label="Warranty Expiration Date" max_length="40" name="warranty_expiration_date" type="glide_date"/>
+    </element>
+</database>

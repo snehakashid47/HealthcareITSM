@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3b89d4732f877150622559a72799b6bb" label="training_programs" max_length="40" name="x_1151057_healthca_training_programs" type="collection">
+        <element label="Scheduled Date" max_length="40" name="scheduled_date" type="glide_date_time"/>
+        <element label="Training Description" max_length="40" name="training_description" type="string"/>
+        <element label="Training Title" max_length="40" name="training_title" type="string"/>
+    </element>
+</database>

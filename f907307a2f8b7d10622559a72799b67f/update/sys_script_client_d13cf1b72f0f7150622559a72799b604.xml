@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>device_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Subcategories changes dynamically</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   var device = newValue;
+   if (device == 'Patient Monitoring Device') {
+	g_form.setValue('category','Monitoring Equipment');
+	var cat=g_form.getValue('category');
+	g_form.clearOptions('subcategory');
+	g_form.addOption('subcategory', 'Device Malfunction', 'Device Malfunction');
+	g_form.addOption('subcategory', 'Connection Issues', 'Connection Issues');
+	g_form.addOption('subcategory','Alarm Notifications', 'Alarm Notifications');
+	g_form.addOption('subcategory', 'Data Accuracy Concerns', 'Data Accuracy Concerns');
+    }
+	else if(device == 'Infusion Pump'){
+	g_form.setValue('category','Infusion Device');
+    g_form.clearOptions('subcategory');	
+    g_form.addOption('subcategory', 'Flow Rate Irregularities', 'Flow Rate Irregularities');
+	g_form.addOption('subcategory', 'Occlusion Alarms', 'Occlusion Alarms');
+	g_form.addOption('subcategory','Battery or Power Issues', 'Battery or Power Issues');
+	g_form.addOption('subcategory', 'Medication Administration Errors', 'Medication Administration Errors');
+	}
+	else if(device == 'X-ray Machine'){
+	g_form.setValue('category', 'Imaging Equipment');
+    g_form.clearOptions('subcategory');	
+    g_form.addOption('subcategory', 'Image Quality Issues', 'Image Quality Issues');
+	g_form.addOption('subcategory', 'Radiation Exposure Concerns','Radiation Exposure Concerns');
+	g_form.addOption('subcategory','Mechanical Failures','Mechanical Failures');
+	g_form.addOption('subcategory', 'Software Errors','Software Errors');
+	}
+	else if(device == 'Defibrillator'){
+	g_form.setValue('category', 'Cardiac Equipment');
+    g_form.clearOptions('subcategory');	
+    g_form.addOption('subcategory', 'Failure to Deliver Shock', 'Failure to Deliver Shock');
+	g_form.addOption('subcategory', 'Electrode Connection Problems','Electrode Connection Problems');
+	g_form.addOption('subcategory','Battery or Power Failures','Battery or Power Failures');
+	g_form.addOption('subcategory', 'Inaccurate ECG Readings','Inaccurate ECG Readings');
+	}
+	else if(device == 'Ventilator'){
+	g_form.setValue('category', 'Respiratory Equipment');
+    g_form.clearOptions('subcategory');	
+    g_form.addOption('subcategory', 'Ventilation Settings Issues', 'Ventilation Settings Issues');
+	g_form.addOption('subcategory', 'Airflow or Pressure Problems','Airflow or Pressure Problems');
+	g_form.addOption('subcategory','Alarms for Oxygen Levels','Alarms for Oxygen Levels');
+	g_form.addOption('subcategory', 'Sudden Shutdowns','Sudden Shutdowns');
+	}
+	else if(device == 'Blood Glucose Monitor'){
+	g_form.setValue('category', 'Diagnostic Equipment');
+    g_form.clearOptions('subcategory');	
+    g_form.addOption('subcategory', 'Incorrect Readings', 'Incorrect Readings');
+	g_form.addOption('subcategory', 'Calibration Problems','Calibration Problems');
+	g_form.addOption('subcategory','Battery Issues','Battery Issues');
+	g_form.addOption('subcategory', 'User Interface Errors','User Interface Errors');
+	}
+	else if(device == 'Ultrasound Machine'){
+	g_form.setValue('category', 'Imaging Equipment');
+    g_form.clearOptions('subcategory');	
+    g_form.addOption('subcategory', 'Image Clarity Concerns ', 'Image Clarity Concerns ');
+	g_form.addOption('subcategory', 'Probe Malfunctions','Probe Malfunctions');
+	g_form.addOption('subcategory','Software Bugs','Software Bugs');
+	g_form.addOption('subcategory', 'Scanning or Calibration Issues','Scanning or Calibration Issues');
+	}
+	else if(device == 'Surgical Laser'){
+	g_form.setValue('category', 'Surgical Equipment');
+    g_form.clearOptions('subcategory');	
+    g_form.addOption('subcategory', 'Power Fluctuations', 'Power Fluctuations');
+	g_form.addOption('subcategory', 'Beam Alignment Problems','Beam Alignment Problems');
+	g_form.addOption('subcategory','Cooling System Failures','Cooling System Failures');
+	g_form.addOption('subcategory', 'Safety Interlock Issues','Safety Interlock Issues');
+	}
+	else if(device == 'Electronic Health Record (EHR) System'){
+	g_form.setValue('category', 'Health Information Technology (HIT)');
+    g_form.clearOptions('subcategory');	
+    g_form.addOption('subcategory', 'Login or Access Issues', 'Login or Access Issues');
+	g_form.addOption('subcategory', 'Data Entry Errors','Data Entry Errors');
+	g_form.addOption('subcategory','System Downtime','System Downtime');
+	g_form.addOption('subcategory', 'Integration Problems with Other Systems','Integration Problems with Other Systems');
+	}
+	else if(device == 'Wheelchair with Electronic Controls')
+{
+	g_form.setValue('category', 'Mobility Aids');
+    g_form.clearOptions('subcategory');	
+    g_form.addOption('subcategory', 'Joystick or Control Malfunctions', 'Joystick or Control Malfunctions');
+	g_form.addOption('subcategory', 'Battery or Charging Issues','Battery or Charging Issues');
+	g_form.addOption('subcategory','Brake Failures','Brake Failures');
+	g_form.addOption('subcategory', 'Structural Problems','Structural Problems');
+	}
+	else if(device == 'Laptop'){
+	g_form.setValue('category', 'IT_Equipment');
+    g_form.clearOptions('subcategory');	
+    g_form.addOption('subcategory', 'Hardware Malfunction', 'Hardware Malfunction');
+	g_form.addOption('subcategory', 'Software Issues','Software Issues');
+	g_form.addOption('subcategory','Connection Problems','Connection Problems');
+	g_form.addOption('subcategory', 'Battery or Power Issues','Battery or Power Issues');
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 12:09:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d13cf1b72f0f7150622559a72799b604</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name>Subcategories changes dynamically</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthcareITSM" source="x_1151057_healthca">f907307a2f8b7d10622559a72799b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">f907307a2f8b7d10622559a72799b67f</sys_scope>
+        <sys_update_name>sys_script_client_d13cf1b72f0f7150622559a72799b604</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:24:43</sys_updated_on>
+        <table>x_1151057_healthca_medical_devices</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

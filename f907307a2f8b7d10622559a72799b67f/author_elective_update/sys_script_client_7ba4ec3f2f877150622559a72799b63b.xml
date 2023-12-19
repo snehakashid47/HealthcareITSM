@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>category</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Subcategories changes dynamically</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading,isTemplate) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    // Get the category selected by the user
+    g_form.getValue('category');
+
+    // Set the subcategory based on the selected category
+    if (newValue == 'IT_Equipment') {
+        g_form.addOption('subcategory','hardware malfunction','Hardware Malfunction');
+    } 
+/*	else if(newValue == 'Mobility Aids')  {
+        g_form.addOption('subcategory', 'Battery or Charging Issues','Battery or Charging Issues');
+	}
+	else if(selectedCategory == 'Cardiac Equipment')
+	{
+		g_form.addOption('subcategory', 'Failure to Deliver Shock');
+	}	*/	
+    }
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 05:44:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ba4ec3f2f877150622559a72799b63b</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Subcategories changes dynamically</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthcareITSM" source="x_1151057_healthca">f907307a2f8b7d10622559a72799b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">f907307a2f8b7d10622559a72799b67f</sys_scope>
+        <sys_update_name>sys_script_client_7ba4ec3f2f877150622559a72799b63b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 10:34:44</sys_updated_on>
+        <table>x_1151057_healthca_medical_devices</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">f907307a2f8b7d10622559a72799b67f</application>
+        <file_path/>
+        <instance_id>cc569751dbce73c407072f17d496191f</instance_id>
+        <instance_name>dev87228</instance_name>
+        <name>sys_script_client_7ba4ec3f2f877150622559a72799b63b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;category&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Subcategories changes dynamically&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading,isTemplate) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    // Get the category selected by the user
+    g_form.getValue('category');
+
+    // Set the subcategory based on the selected category
+    if (newValue == 'IT_Equipment') {
+        g_form.addOption('subcategory','hardware malfunction','Hardware Malfunction');
+    } 
+/*	else if(newValue == 'Mobility Aids')  {
+        g_form.addOption('subcategory', 'Battery or Charging Issues','Battery or Charging Issues');
+	}
+	else if(selectedCategory == 'Cardiac Equipment')
+	{
+		g_form.addOption('subcategory', 'Failure to Deliver Shock');
+	}	*/	
+    }
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-18 05:44:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7ba4ec3f2f877150622559a72799b63b&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name&gt;Subcategories changes dynamically&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="HealthcareITSM" source="x_1151057_healthca"&gt;f907307a2f8b7d10622559a72799b67f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="HealthcareITSM"&gt;f907307a2f8b7d10622559a72799b67f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_7ba4ec3f2f877150622559a72799b63b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-18 10:34:44&lt;/sys_updated_on&gt;&lt;table&gt;x_1151057_healthca_medical_devices&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2015954452</payload_hash>
+        <record_name>Subcategories changes dynamically</record_name>
+        <reverted_from/>
+        <source>3d07307a2f8b7d10622559a72799b681</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 10:34:44</sys_created_on>
+        <sys_id>2e97ed332fcb7150622559a72799b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c7c7e0d260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 10:34:44</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2697ed3345cb71503b50b89f636b90de</update_guid>
+        <update_guid_history>2697ed3345cb71503b50b89f636b90de:2015954452,0bf66133c6cb7150e36beaec82ab3f99:-1829448916,d336a17ff68b71504af79b2f3d9fb6a8:-17567376,5e502d7b0f8b71505274b1ad5525722b:1979415104,554f193b878b71506cf196dc705cbff9:-1940318797,b67dd1372b8b7150e315bac89ff86149:-1539449879,5e0d51b7608b7150131723b1eba32e61:-1465071694,15bad9f3eb8b7150a55ae3e1bea98c6e:-2039668830,111a51f39f8b7150c1840871ba686d58:-586923613,e1d65dffcd4b7150a757608464f6c057:-1899176249,cb0695bf194b71503f5177ce472c0aa3:-1530062178,1fd599bf5e4b715000b2e48c035afb68:-157756349,f9a515bf604b71509db4449b71883903:1063430319,f49515bf924b71500f3f10406c840f1a:286810745,24551d7f364b71502c78d6101fdc9ca1:1825814937,c2c4997f424b7150e7bec6a3e00b9908:132400285,acbbf8f3450b715062f1c3dff47a4ade:1558264223,22a97cffddc77150c98be2c2840c7ce4:2008316219,cd49f073580b715023231f116ef099be:1539278879,3cc6f47fc5c77150ad5d357ed0fc3127:1480956829,ac97acffa6877150276f10005cd32ef0:-1357712472,7d152c3b77877150061c900a2c2e3872:1461886291</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 10:37:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>16a293fe0980466ab35a55cc99f624b9</sys_id>
+        <sys_metadata>7ba4ec3f2f877150622559a72799b63b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Subcategories changes dynamically</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1151057_healthca">f907307a2f8b7d10622559a72799b67f</sys_package>
+        <sys_parent display_value="medical_devices">3543d8bb2f477150622559a72799b6b9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">f907307a2f8b7d10622559a72799b67f</sys_scope>
+        <sys_scope_delete display_value="">0018d9aea9254628800049ecc0507c40</sys_scope_delete>
+        <sys_update_name>sys_script_client_7ba4ec3f2f877150622559a72799b63b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_7ba4ec3f2f877150622559a72799b63b">2e97ed332fcb7150622559a72799b6de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 10:37:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_1151057_healthca_duplication_detection</description>
+        <name>x_1151057_healthca_duplication_detection</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 04:51:10</sys_created_on>
+        <sys_id>7df85c332f877150622559a72799b6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1151057_healthca_duplication_detection</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1151057_healthca">f907307a2f8b7d10622559a72799b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">f907307a2f8b7d10622559a72799b67f</sys_scope>
+        <sys_update_name>sys_security_acl_7df85c332f877150622559a72799b6eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 04:51:10</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>category</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name/>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+}  
+ if(newValue=='Mobility Aids'){
+	g_form.addOption('Subcategory','Joystick or Control Malfunctions','Joystick or Control Malfunctions');
+
+ }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 10:02:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a07f9d3b2f8b7150622559a72799b64c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="HealthcareITSM" source="x_1151057_healthca">f907307a2f8b7d10622559a72799b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">f907307a2f8b7d10622559a72799b67f</sys_scope>
+        <sys_update_name>sys_script_client_a07f9d3b2f8b7150622559a72799b64c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 10:29:57</sys_updated_on>
+        <table>x_1151057_healthca_medical_devices</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">f907307a2f8b7d10622559a72799b67f</application>
+        <file_path/>
+        <instance_id>cc569751dbce73c407072f17d496191f</instance_id>
+        <instance_name>dev87228</instance_name>
+        <name>sys_script_client_a07f9d3b2f8b7150622559a72799b64c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;category&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name/&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+}  
+ if(newValue=='Mobility Aids'){
+	g_form.addOption('Subcategory','Joystick or Control Malfunctions','Joystick or Control Malfunctions');
+
+ }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-18 10:02:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a07f9d3b2f8b7150622559a72799b64c&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="HealthcareITSM" source="x_1151057_healthca"&gt;f907307a2f8b7d10622559a72799b67f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="HealthcareITSM"&gt;f907307a2f8b7d10622559a72799b67f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a07f9d3b2f8b7150622559a72799b64c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-18 10:29:57&lt;/sys_updated_on&gt;&lt;table&gt;x_1151057_healthca_medical_devices&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>817717554</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3d07307a2f8b7d10622559a72799b681</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 10:29:57</sys_created_on>
+        <sys_id>5886edff2f8b7150622559a72799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c7c79ac520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 10:29:57</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>5086edffaa8b715032639440273d3e7c</update_guid>
+        <update_guid_history>5086edffaa8b715032639440273d3e7c:817717554,3404a17f728b7150edd1c57c98a3e8b8:882551781,9640e97bd18b7150ad3e5983fe921633:-1924865313</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 10:35:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1b439cc98e8a45b38ddc5e7b153e98f9</sys_id>
+        <sys_metadata>a07f9d3b2f8b7150622559a72799b64c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HealthcareITSM" source="x_1151057_healthca">f907307a2f8b7d10622559a72799b67f</sys_package>
+        <sys_parent display_value="medical_devices">3543d8bb2f477150622559a72799b6b9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">f907307a2f8b7d10622559a72799b67f</sys_scope>
+        <sys_scope_delete display_value="">0018d9aea9254628800049ecc0507c40</sys_scope_delete>
+        <sys_update_name>sys_script_client_a07f9d3b2f8b7150622559a72799b64c</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a07f9d3b2f8b7150622559a72799b64c">5886edff2f8b7150622559a72799b67c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 10:35:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

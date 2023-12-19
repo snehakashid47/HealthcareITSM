@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order/>
+        <roles>x_1151057_healthca.hc nurse,x_1151057_healthca.doctor,x_1151057_healthca.technician,x_1151057_healthca.supervisor,x_1151057_healthca.chief medical officer,x_1151057_healthca.it specialist,x_1151057_healthca.it support manager,x_1151057_healthca.biomedical engineer,x_1151057_healthca.support team lead,x_1151057_healthca.change manager,x_1151057_healthca.change management director,x_1151057_healthca.administrator,x_1151057_healthca.analyst,x_1151057_healthca.it director or cio,x_1151057_healthca.chief data officer</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 04:35:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7188bc3a2f8b7d10622559a72799b6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HealthcareITSM</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthcareITSM" source="x_1151057_healthca">f907307a2f8b7d10622559a72799b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">f907307a2f8b7d10622559a72799b67f</sys_scope>
+        <sys_update_name>sys_app_application_7188bc3a2f8b7d10622559a72799b6cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 04:35:09</sys_updated_on>
+        <title>HealthcareITSM</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

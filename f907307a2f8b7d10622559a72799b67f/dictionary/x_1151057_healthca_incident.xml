@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1cad40372f477150622559a72799b6de" extends="task" label="incident" max_length="40" name="x_1151057_healthca_incident" type="collection">
+        <element label="Category" max_length="32" name="category" reference="x_1151057_healthca_medical_devices" type="reference"/>
+        <element label="Feedback Received" max_length="40" name="feedback_received" type="string"/>
+        <element choice="1" label="Incident Category" max_length="40" name="incident_category" type="choice">
+            <choice/>
+        </element>
+        <element label="Incident Priority Score" max_length="40" name="incident_priority_score" type="integer"/>
+        <element label="Incident Training Follow-up" max_length="40" name="incident_training_follow_up" type="string"/>
+        <element label="Medical Device" max_length="40" name="medical_device" reference="x_1151057_healthca_medical_devices" reference_qual="null" reference_qual_condition="null" type="reference"/>
+    </element>
+</database>

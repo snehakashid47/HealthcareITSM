@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8b78987f2f477150622559a72799b60e" label="duplication_detection" max_length="40" name="x_1151057_healthca_duplication_detection" type="collection">
+        <element label="Duplicate Incident" max_length="32" name="duplicate_incident" reference="x_1151057_healthca_incident" type="reference"/>
+        <element label="Original Incident" max_length="32" name="original_incident" reference="x_1151057_healthca_incident" type="reference"/>
+        <index name="index">
+            <element name="duplicate_incident"/>
+        </index>
+        <index name="index2">
+            <element name="original_incident"/>
+        </index>
+    </element>
+</database>

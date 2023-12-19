@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ec41943b2f477150622559a72799b66b" extends="task" label="problem" max_length="40" name="x_1151057_healthca_problem" type="collection">
+        <element label="Incident Linked" max_length="40" name="incident_linked" type="string"/>
+        <element label="Preventive Analysis" max_length="40" name="preventive_analysis" type="string"/>
+        <element label="Root Cause Analysis" max_length="40" name="root_cause_analysis" type="string"/>
+    </element>
+</database>
